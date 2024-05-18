@@ -79,7 +79,7 @@ function buildCharts(sample) {
     var barData = [barTrace];
 
     var barLayout = {
-      title: 'Top 10 Cultures Found',
+      title: 'Top 10 Cultures',
       xaxis: { title: 'Number of Bacteria' },
       margin: { t: 30, l: 150 }
     };
