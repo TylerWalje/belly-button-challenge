@@ -68,26 +68,7 @@ function buildCharts(sample) {
 
     // Build a Bar Chart
     // Don't forget to slice and reverse the input data appropriately
-    var barTrace = {
-      x: sample_values.slice(0, 10).reverse(),
-      y: yticks,
-      text: otu_labels.slice(0, 10).reverse(),
-      type: 'bar',
-      orientation: 'h'
-    };
 
-    var barData = [barTrace];
-
-    var barLayout = {
-      title: 'Top 10 Cultures Found',
-      xaxis: { title: 'Number of Bacteria' },
-      margin: { t: 30, l: 150 }
-    };
-
-
-    // Render the Bar Chart
-    Plotly.newPlot('bar', barData, barLayout);
-  });
 }
 
 // Function to run on page load
