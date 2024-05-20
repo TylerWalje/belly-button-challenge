@@ -84,7 +84,6 @@ function buildCharts(sample) {
       margin: { t: 30, l: 150 }
     };
 
-
     // Render the Bar Chart
     Plotly.newPlot('bar', barData, barLayout);
   });
